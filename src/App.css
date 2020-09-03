@@ -1,21 +1,26 @@
-:root{
-  --colorA: #30F4FD;
-  --colorB: #73FFD7;
-  --colorC: #00C9FF;
+:root {
+  --colorA: #30f4fd;
+  --colorB: #73ffd7;
+  --colorC: #00c9ff;
 }
-.oswald{
-  font-family: 'Oswald', sans-serif;
+
+.oswald {
+  font-family: "Oswald", sans-serif;
 }
-.lobster{
-  font-family: 'Lobster', cursive;
+
+.lobster {
+  font-family: "Lobster", cursive;
 }
-.middle{
+
+.middle {
   text-align: center;
 }
-body{
-  font-family: 'Lobster', cursive !important;
+
+body {
+  font-family: "Lobster", cursive !important;
 }
-.btn-black{
+
+.btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.7rem !important;
@@ -23,13 +28,51 @@ body{
   border-radius: 20%;
   border: 0.1rem solid darkcyan !important;
 }
-.btn-black:hover{
+
+.btn-black:hover {
   background: darkcyan !important;
   color: white !important;
 }
 
-.cart-icon{
+.cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: crimson;
 }
+
+.footer {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+  color: cyan;
+  font-family: bahnschrift;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.owl-theme {
+  z-index: -10;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+  background: cyan;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .owl-theme .item img {
+    min-height: 150px;
+  }
+} */
