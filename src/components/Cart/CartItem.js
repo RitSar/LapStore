@@ -12,7 +12,7 @@ export default function CartItem({ item, value }) {
                 <span className="d-lg-none">product: </span>{title}
             </div>
             <div className="col-10 mx-auto col-lg-2">
-                <span className="d-lg-none">price: </span>{price}
+                <span className="d-lg-none">price: </span>₹ {price}
             </div>
 
             <div className="col-10 mx-auto col-lg-2 my-2 my-lg-0">

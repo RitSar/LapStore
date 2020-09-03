@@ -3,7 +3,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "HP Pavillion - Gaming",
-    img: "img/product-1.jpg",
+    img: "img/product-1.png",
     price: 81868,
     company: "HP",
     info:
@@ -15,7 +15,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Lenovo Ideapad Slim 3i",
-    img: "img/product-2.jpg",
+    img: "img/product-2.png",
     price: 52099,
     company: "Lenovo",
     info:
@@ -27,7 +27,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "HP Omen - Gaming",
-    img: "img/product-3.jpg",
+    img: "img/product-3.png",
     price: 90000,
     company: "HP",
     info:
@@ -39,7 +39,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Mi Notebook 14",
-    img: "img/product-4.jpg",
+    img: "img/product-4.png",
     price: 49999,
     company: "Xiaomi",
     info:
@@ -51,7 +51,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Microsoft Surface Pro 6",
-    img: "img/product-5.jpg",
+    img: "img/product-5.png",
     price: 85990,
     company: "htc",
     info:
@@ -63,7 +63,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Acer Predator Helios 300",
-    img: "img/product-6.jpg",
+    img: "img/product-6.png",
     price: 119999,
     company: "Acer",
     info:
@@ -75,7 +75,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Apple MacBook Air",
-    img: "img/product-7.jpg",
+    img: "img/product-7.png",
     price: 92499,
     company: "apple",
     info:
@@ -87,7 +87,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Dell Alienware m15",
-    img: "img/product-8.jpg",
+    img: "img/product-8.png",
     price: 267898,
     company: "Dell",
     info:
@@ -101,7 +101,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "HP Pavillion - Gaming",
-  img: "img/product-1.jpg",
+  img: "img/product-1.png",
   price: 81868,
   company: "HP",
   info:
