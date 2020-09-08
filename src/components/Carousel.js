@@ -17,16 +17,16 @@ export default function Carousel() {
       dots={false}
     >
       <div className="item img-fluid">
-        <img src="/img/img1.webp" alt="" />
+        <img src="/img/img1.jpg" alt="" />
       </div>
       <div className="item img-fluid">
-        <img src="/img/img2.webp" alt="" />
+        <img src="/img/img2.jpg" alt="" />
       </div>
       <div className="item img-fluid">
-        <img src="/img/img3.webp" alt="" />
+        <img src="/img/img3.png" alt="" />
       </div>
       <div className="item img-fluid">
-        <img src="/img/img4.webp" alt="" />
+        <img src="/img/img4.jpg" alt="" />
       </div>
     </OwlCarousel>
   );
