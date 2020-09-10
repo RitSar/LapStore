@@ -9,7 +9,7 @@ import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Modal from './components/Modal';
 import Footer from './components/Footer';
-import Carousel from './Carousel';
+import Carousel from './components/Carousel';
 
 
 //class App extends Component ?
