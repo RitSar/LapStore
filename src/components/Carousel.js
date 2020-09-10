@@ -3,7 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-// import img1 from "/img/img1.jpg";
+import img1 from "/img/img1.jpg";
 
 export default function Carousel() {
 
@@ -14,10 +14,10 @@ export default function Carousel() {
       autoplay
       autoplayHoverPause
       responsiveClass
-      dots={false}
+      dots={true}
     >
       <div className="item img-fluid">
-        <img src="/img/img1.jpg" alt="" />
+        <img src={img1} alt="" />
       </div>
       <div className="item img-fluid">
         <img src="/img/img2.jpg" alt="" />

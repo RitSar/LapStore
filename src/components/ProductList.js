@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Product from './Product';
 import { storeProducts } from '../data';
-import Carousel from './Carousel';
 import { ProductConsumer } from '../context'
 
 export default class ProductList extends Component {
@@ -13,7 +12,6 @@ export default class ProductList extends Component {
         return (
             <React.Fragment>
                 <div className="container">
-                    <Carousel />
                     <div className="row">
                         <ProductConsumer>
                             {value => {

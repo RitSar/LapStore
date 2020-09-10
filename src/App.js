@@ -9,6 +9,7 @@ import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Modal from './components/Modal';
 import Footer from './components/Footer';
+import Carousel from './Carousel';
 
 
 //class App extends Component ?
@@ -18,10 +19,11 @@ function App() {
       <div className="content">
         <React.Fragment>
           <Navbar />
+          <Carousel />
           <Switch>
-            <Route path="/LapStore" component={ProductList}></Route>
-            <Route path="/cart" component={Cart}></Route>
-            <Route path="/details" component={Details}></Route>
+            <Route path="/LapStore/" component={ProductList}></Route>
+            <Route path="/LapStore/cart" component={Cart}></Route>
+            <Route path="/LapStore/details" component={Details}></Route>
             <Route component={Default}></Route>
           </Switch>
           <Modal />
